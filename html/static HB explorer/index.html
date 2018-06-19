@@ -1,0 +1,120 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HOME</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/font-awesome.css">
+        <link rel="stylesheet" href="css/style.css">
+
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    </head>
+    <body class="homepage">
+        <header>
+            <div class="container-fluid">
+                <h1 class="logo">
+                    <a href="#" class="HB Explorer" title="HB Explorer">HB Explorer</a>
+                </h1>
+                <div>
+                    <p class="currentPrice">
+                        <img src="images/icon-ether.svg" alt="Ether icoin" /> $466.32 (<span>+0,64%</span>)
+                    </p>
+                </div>
+                <nav>
+                    <ul class="pull-right menu">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Address</a></li>
+                        <li><a href="#">Block</a></li>
+                        <li class="parent"><a href="#">Transactions</a></li>
+                        <li><a href="#">Token</a></li>
+                        <li class="signIn"><a href="#">Sign In</a></li>
+                    </ul>
+                </nav>
+            </div>
+            
+            
+        </header>
+        <section id="search">
+            <div class="container-fluid">
+                <form id="searchType">
+                    <div class="innerForm">
+                        <p class="advancedSearch"><a href="#">Advanced Search <i class="fa fa-angle-down"></i></a></p>
+                        <input type="text" name="keyword" class="txt txtKeyword" placeholder="Search by Address / Txhash / Block / Token / Ens" autocomplete="false" />
+                        <button class="btnGo btnSubmit">Go</button>
+                        <div class="resultFilter">
+                            <p>Search by: <span>Token</span> - Market Cap: (<span>from $4,364,820 to $4,555,232</span>) - Price: (<span>from $13 to $50</span>)</p>
+                        </div>
+                    </div>
+                    <div class="advancedSearchWrapper">
+                        <h4>Advanced Search <a href="#" class="doneFilter">DONE</a></h4>
+                        <hr />
+                        <div class="row">
+                            <div class="col">
+                                <label class="group">Search By</label>
+                                <div class="controls controls-select">
+                                    <select>
+                                        <option>Block</option>
+                                        <option selected>Transactions</option>
+                                        <option>Token</option>
+                                    </select>
+                                </div>
+                                
+                            </div>
+                            <div class="col-8">
+                                <div class="">
+                                    <div class="">
+                                        <label class="group">Market Cap</label>
+                                        <div class="row">
+                                            <div class="col-6 paddingLeft0">
+                                                <label>From</label>
+                                                <div class="controls">
+                                                    <input type="text" name="marketcap[from]" class="txt" />
+                                                    <span class="currencyIcon">$</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <label>To</label>
+                                                <div class="controls">
+                                                    <input type="text" name="marketcap[to]" class="txt" />
+                                                    <span class="currencyIcon">$</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="">
+                                        <label class="group">Price</label>
+                                        <div class="row">
+                                            <div class="col-6 paddingLeft0">
+                                                <label>From</label>
+                                                <div class="controls">
+                                                    <input type="text" name="price[to]" class="txt" />
+                                                    <span class="currencyIcon">$</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <label>To</label>
+                                                <div class="controls">
+                                                    <input type="text" name="price[from]" class="txt" />
+                                                    <span class="currencyIcon">$</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+        
+        <footer>
+            <div class="container-fluid">
+                <p>© Bacoor 2017</p>
+            </div>
+        </footer>
+        
+    </body>
+</html>

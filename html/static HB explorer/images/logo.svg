@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="308" height="116">
+    <path fill="#0336A9" fill-rule="evenodd" d="M51.355 87.463L86.11 66.536 51.355 116V87.463z"/>
+    <path fill="#0443B5" fill-rule="evenodd" d="M51.519 42.565v36.907l35.134-20.927-35.134-15.98z"/>
+    <path fill="#0667D0" fill-rule="evenodd" d="M51.519.002v42.995l35.134 15.981L51.519.002z"/>
+    <path fill="#028ACA" fill-rule="evenodd" d="M51.519 87.463L16.763 66.536 51.519 116V87.463z"/>
+    <path fill="#0DAEF2" fill-rule="evenodd" d="M52.519 42.565v36.907L17.386 58.545l35.133-15.98z"/>
+    <path fill="#11C9FD" fill-rule="evenodd" d="M52.519.002v42.995L17.386 58.978 52.519.002z"/>
+    <path fill="#0443B5" fill-rule="evenodd" d="M29.229 83.28S4.042 87.733 7.205 73.493c3.163-14.239 25.142-37.121 54.426-47.025 29.283-9.904 33.468 3.721 20.75 22.94 22.856-26.549 1.698-32.416 1.698-32.416S56.814 6.634 24.614 35.845c-32.2 29.21-34.965 64.54 4.615 47.435z"/>
+    <path fill="#EBEBEB" fill-rule="evenodd" d="M36.47 26.607s10.887-6.971 16.455-8.096c-10.218 2.038-13.987 3.965-13.987 3.965l-2.468 4.131z"/>
+    <text x="101" y="76" fill="#0336A9" font-family="Roboto" font-size="30" font-weight="bold">
+        HB EXPLORER
+    </text>
+</svg>
